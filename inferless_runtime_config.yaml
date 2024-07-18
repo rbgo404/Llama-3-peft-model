@@ -1,0 +1,12 @@
+build:
+  cuda_version: "12.1.1"
+  python_packages:
+    - "torch==2.0.1"
+    - "transformers==4.34.1"
+    - "openpyxl==3.1.5"
+    - "accelerate==0.21.0"
+    - "peft==0.4.0"
+    - "bitsandbytes==0.40.2"
+    - "pandas==2.2.2"
+    - "numpy==1.25.0"
+    - "scipy==1.14.0"
