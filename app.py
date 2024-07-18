@@ -24,7 +24,6 @@ class InferlessPythonModel:
             model_name,
             low_cpu_mem_usage=True,
             return_dict=True,
-            load_in_4bit=True,
             torch_dtype=torch.float16,
             device_map='auto',
         )
